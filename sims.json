@@ -1,0 +1,28 @@
+{
+  "z2h": {
+    "endpoint": {
+      "name": "XSEDE Ranch",
+      "id": "db57de2a-6d04-11e5-ba46-22000b92c6ec"
+    },
+    "directory": "/home2/01708/cfaucher/SCRATCH_stamp",
+    "simulations": {
+      "z2h350": "dm_512_MUSIC_ex_halo350_Jan9_2014",
+      "z2h400": "dm_512_MUSIC_ex_halo400_Jan9_2014",
+      "z2h450": "dm_512_MUSIC_ex_halo450_Jan9_2014",
+      "z2h506": "dm_512_MUSIC_ex_halo506_Jan9_2014",
+      "z2h550": "dm_512_MUSIC_ex_halo550_Jan9_2014",
+      "z2h600": "dm_512_MUSIC_ex_halo600_Jan9_2014",
+      "z2h650": "dm_512_MUSIC_ex_halo650_Jan9_2014",
+      "z2h830": "dm_512_MUSIC_ex_halo830_Jan9_2014_lean"
+    },
+    "snapshot": {
+      "template": "snapdir_{snap_num:03d}/snapshot_{snap_num:03d}.{i}.hdf5",
+      "expand": {
+        "i": [0, 1, 2, 3]
+      }
+    },
+    "halo": {
+      "template": "halo_{halo_num:05d}.dat"
+    }
+  }
+}

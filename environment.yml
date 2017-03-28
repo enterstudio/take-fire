@@ -1,0 +1,5 @@
+name: take-fire
+dependencies:
+- python=3.6.1=0
+- pip:
+  - globus-cli==0.6.0.0

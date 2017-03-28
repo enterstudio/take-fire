@@ -1,0 +1,18 @@
+{
+  "destination": {
+    "endpoint": {
+      "name": "XSEDE Comet",
+      "id": "de463f97-6d04-11e5-ba46-22000b92c6ec"
+    },
+    "directory": "/oasis/tscc/scratch/b2dong/data/fire"
+  },
+  "tasks": [
+    {
+      "name": "example",
+      "series": "z2h",
+      "simulations": ["z2h506"],
+      "snapshots": [190],
+      "halos": [0]
+    }
+  ]
+}
