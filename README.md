@@ -8,5 +8,5 @@ Usually I don't need all the snapshots from a simulation for my analysis, so I o
 ## Example
 
 ```bash
-python download.py example-task.json
+python transfer.py task-example.json
 ```

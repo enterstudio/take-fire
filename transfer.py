@@ -47,7 +47,7 @@ def generate_batch_transfer_file(task, sims):
             sim_file_list += expand(series['halo'], halo_num=halo_num)
         sim_file_list = [os.path.join(sim_dir, f) for f in sim_file_list]
         file_list += sim_file_list
-    transfer_file = 'transfer_' + task['name'] + '.txt'
+    transfer_file = 'transfer-' + task['name'] + '.txt'
     open(transfer_file, 'w')
     with open(transfer_file, 'a') as f:
         for path in file_list:
